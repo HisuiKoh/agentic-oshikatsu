@@ -1,0 +1,19 @@
+{
+	"claude": {
+		"claude-sonnet-4-5-20250929": {
+			"inputPerMToken": 3.0,
+			"outputPerMToken": 15.0,
+			"cacheReadPerMToken": 0.3
+		},
+		"claude-haiku-4-5-20251001": {
+			"inputPerMToken": 0.8,
+			"outputPerMToken": 4.0,
+			"cacheReadPerMToken": 0.08
+		},
+		"claude-opus-4-6": {
+			"inputPerMToken": 15.0,
+			"outputPerMToken": 75.0,
+			"cacheReadPerMToken": 1.5
+		}
+	}
+}

@@ -1,0 +1,13 @@
+diff --git a/build/components/multi-select/use-multi-select.js b/build/components/multi-select/use-multi-select.js
+index e5461cd821d9e8a832cf7592b73c5b54d5a7628b..3c20c26d57a83ae39b8102c1ef3c835c154458c0 100644
+--- a/build/components/multi-select/use-multi-select.js
++++ b/build/components/multi-select/use-multi-select.js
+@@ -7,7 +7,7 @@ export const useMultiSelect = ({ isDisabled = false, state, }) => {
+         if (key.upArrow) {
+             state.focusPreviousOption();
+         }
+-        if (input === ' ') {
++        if (input === ' ' || input === '\u3000') {
+             state.toggleFocusedOption();
+         }
+         if (key.return) {

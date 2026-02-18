@@ -1,0 +1,113 @@
+{
+	"common": {
+		"error": "Error",
+		"cancel": "Cancelled",
+		"notInitialized": "Not initialized. Please run `oshi init`.",
+		"oshiNotFound": "Oshi not found: {{name}}",
+		"checkOshiList": "Check registered oshi with `oshi list`"
+	},
+	"init": {
+		"title": "oshi init — Initial Setup",
+		"alreadyInitialized": "Already initialized. Reinitialize? (settings will be reset)",
+		"skipped": "Initialization skipped",
+		"creatingDir": "Creating settings directory...",
+		"creatingDb": "Initializing database...",
+		"creatingConfig": "Creating config file...",
+		"authQuestion": "Set up AI provider authentication? (changeable later with `oshi auth`)",
+		"authSkip": "Skip (set up later)",
+		"profileQuestion": "Set up AI response style? (changeable later with `oshi profile edit`)",
+		"complete": "Initialization complete",
+		"ready": "Ready! Register your oshi with `oshi add`"
+	},
+	"add": {
+		"title": "oshi add — Register Oshi",
+		"enterName": "Enter your oshi's name",
+		"nameRequired": "Name is required"
+	},
+	"collect": {
+		"title": "oshi collect — Collect Info",
+		"collecting": "Collecting info for {{name}}...",
+		"noNewInfo": "No new information found.",
+		"newItems": "New: {{count}} items",
+		"duplicateSkip": "Duplicates skipped: {{count}}",
+		"complete": "Collection complete ({{count}} items total)"
+	},
+	"suggest": {
+		"title": "oshi suggest — Activity Suggestions",
+		"generating": "Generating suggestions for {{name}}...",
+		"generated": "Generated {{count}} suggestions",
+		"noSuggestions": "Could not generate suggestions. Please try again.",
+		"noHistory": "No past suggestions",
+		"history": "Suggestion history for {{name}}:"
+	},
+	"budget": {
+		"title": "oshi budget — Budget Management",
+		"remaining": "Remaining: ¥{{amount}}",
+		"usage": "Usage: {{percent}}%"
+	},
+	"lint": {
+		"title": "oshi lint — Risk Assessment"
+	},
+	"dashboard": {
+		"title": "oshi dashboard — Activity Dashboard"
+	},
+	"profile": {
+		"title": "oshi profile — Personality Settings",
+		"notSet": "Profile not set. Configure with `oshi profile edit`.",
+		"updated": "Profile updated"
+	},
+	"backup": {
+		"title": "oshi backup — Backup Management",
+		"created": "Backup created: {{name}}",
+		"noBackups": "No backups found",
+		"selectBackup": "Select backup to restore",
+		"restoreConfirm": "Current data will be overwritten. Restore?",
+		"restored": "Restored successfully",
+		"exported": "Exported: {{path}}",
+		"imported": "Imported {{count}} records",
+		"importConfirm": "Data will be added to existing records. Continue?",
+		"importPathRequired": "Please specify import file path",
+		"importUsage": "Usage: oshi backup import <file.json>",
+		"unknownSubcommand": "Unknown subcommand: {{command}}",
+		"usage": "Usage: oshi backup [create|list|restore|export|import]"
+	},
+	"auth": {
+		"title": "oshi auth — Authentication",
+		"noProvider": "No AI provider configured. Set up with `oshi auth`."
+	},
+	"cost": {
+		"title": "oshi cost — AI Usage",
+		"noHistory": "No AI usage history yet.",
+		"requests": "Requests",
+		"inputTokens": "Input tokens",
+		"outputTokens": "Output tokens",
+		"costLabel": "Cost",
+		"totalCost": "Total cost",
+		"total": "Total"
+	},
+	"reset": {
+		"title": "oshi reset — Data Reset",
+		"notInitialized": "Data directory does not exist. No need to reset.",
+		"warning": "The following directory and all its contents will be deleted: {{path}}",
+		"warningDetail": "All data including registered oshi, collected info, budget records, and auth credentials will be lost.",
+		"confirm": "Are you sure you want to delete all data? (This cannot be undone)",
+		"doubleConfirm": "Type \"reset\" to confirm",
+		"doubleConfirmError": "Please type \"reset\"",
+		"complete": "Deleted {{path}}",
+		"reinit": "Run `oshi init` to set up again"
+	},
+	"router": {
+		"unknownCommand": "Unknown command: {{command}}",
+		"unexpectedError": "An unexpected error occurred"
+	},
+	"list": {
+		"title": "oshi list — Registered Oshi",
+		"empty": "No oshi registered yet. Register with `oshi add`!",
+		"name": "Name",
+		"category": "Category",
+		"description": "Description",
+		"registeredAt": "Registered",
+		"attributes": "Attributes",
+		"count": "{{count}} oshi registered"
+	}
+}

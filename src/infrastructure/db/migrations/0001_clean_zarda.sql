@@ -1,0 +1,1 @@
+ALTER TABLE `collected_info` ADD `event_date` text;

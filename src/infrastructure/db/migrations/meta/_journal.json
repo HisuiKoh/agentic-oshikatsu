@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1771163493540,
+      "tag": "0000_acoustic_felicia_hardy",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1771422903511,
+      "tag": "0001_clean_zarda",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1771437323887,
+      "tag": "0002_previous_liz_osborn",
+      "breakpoints": true
+    }
+  ]
+}

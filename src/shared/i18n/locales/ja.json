@@ -1,0 +1,113 @@
+{
+	"common": {
+		"error": "エラー",
+		"cancel": "キャンセルしました",
+		"notInitialized": "初期化されていません。`oshi init` を実行してください。",
+		"oshiNotFound": "推しが見つかりません: {{name}}",
+		"checkOshiList": "`oshi list` で登録済みの推しを確認してください"
+	},
+	"init": {
+		"title": "oshi init — 初期セットアップ",
+		"alreadyInitialized": "既に初期化済みです。再初期化しますか？（設定はリセットされます）",
+		"skipped": "初期化をスキップしました",
+		"creatingDir": "設定ディレクトリを作成中...",
+		"creatingDb": "データベースを初期化中...",
+		"creatingConfig": "設定ファイルを作成中...",
+		"authQuestion": "AI プロバイダーの認証を設定しますか？（後から `oshi auth` で変更可能）",
+		"authSkip": "スキップ（後で設定する）",
+		"profileQuestion": "AI の応答スタイルを設定しますか？（後から `oshi profile edit` で変更可能）",
+		"complete": "初期化完了",
+		"ready": "準備完了！ oshi add で推しを登録しましょう"
+	},
+	"add": {
+		"title": "oshi add — 推し登録",
+		"enterName": "推しの名前を入力してください",
+		"nameRequired": "名前を入力してください"
+	},
+	"collect": {
+		"title": "oshi collect — 情報収集",
+		"collecting": "{{name}} の情報を収集中...",
+		"noNewInfo": "新しい情報は見つかりませんでした。",
+		"newItems": "新規: {{count}} 件",
+		"duplicateSkip": "重複スキップ: {{count}} 件",
+		"complete": "収集完了（合計 {{count}} 件取得）"
+	},
+	"suggest": {
+		"title": "oshi suggest — 推し活行動提案",
+		"generating": "{{name}} の行動提案を生成中...",
+		"generated": "{{count}} 件の提案を生成しました",
+		"noSuggestions": "提案を生成できませんでした。別の条件で再度お試しください。",
+		"noHistory": "過去の提案はありません",
+		"history": "{{name}} の提案履歴:"
+	},
+	"budget": {
+		"title": "oshi budget — 予算管理",
+		"remaining": "残額: {{amount}}円",
+		"usage": "使用率: {{percent}}%"
+	},
+	"lint": {
+		"title": "oshi lint — リスク評価"
+	},
+	"dashboard": {
+		"title": "oshi dashboard — 推し活ダッシュボード"
+	},
+	"profile": {
+		"title": "oshi profile — パーソナリティ設定",
+		"notSet": "プロファイルが未設定です。`oshi profile edit` で設定してください。",
+		"updated": "プロファイルを更新しました"
+	},
+	"backup": {
+		"title": "oshi backup — バックアップ管理",
+		"created": "バックアップを作成しました: {{name}}",
+		"noBackups": "バックアップはありません",
+		"selectBackup": "リストアするバックアップを選択",
+		"restoreConfirm": "現在のデータは上書きされます。リストアしますか？",
+		"restored": "リストアしました",
+		"exported": "エクスポートしました: {{path}}",
+		"imported": "{{count}} 件のレコードをインポートしました",
+		"importConfirm": "既存データに追加インポートされます。続行しますか？",
+		"importPathRequired": "インポートファイルのパスを指定してください",
+		"importUsage": "使い方: oshi backup import <file.json>",
+		"unknownSubcommand": "不明なサブコマンド: {{command}}",
+		"usage": "使い方: oshi backup [create|list|restore|export|import]"
+	},
+	"auth": {
+		"title": "oshi auth — 認証設定",
+		"noProvider": "AI プロバイダーが設定されていません。`oshi auth` で認証を設定してください。"
+	},
+	"cost": {
+		"title": "oshi cost — AI 使用量",
+		"noHistory": "AI 使用履歴がまだありません。",
+		"requests": "リクエスト数",
+		"inputTokens": "入力トークン",
+		"outputTokens": "出力トークン",
+		"costLabel": "コスト",
+		"totalCost": "合計コスト",
+		"total": "合計"
+	},
+	"reset": {
+		"title": "oshi reset — データリセット",
+		"notInitialized": "データディレクトリが存在しません。リセットの必要はありません。",
+		"warning": "以下のディレクトリとその中身をすべて削除します: {{path}}",
+		"warningDetail": "登録した推し、収集情報、予算記録、認証情報など全データが失われます。",
+		"confirm": "本当に全データを削除しますか？（この操作は取り消せません）",
+		"doubleConfirm": "確認のため「reset」と入力してください",
+		"doubleConfirmError": "「reset」と入力してください",
+		"complete": "{{path}} を削除しました",
+		"reinit": "再セットアップするには `oshi init` を実行してください"
+	},
+	"router": {
+		"unknownCommand": "不明なコマンド: {{command}}",
+		"unexpectedError": "予期しないエラーが発生しました"
+	},
+	"list": {
+		"title": "oshi list — 登録済みの推し一覧",
+		"empty": "まだ推しが登録されていません。`oshi add` で登録しましょう！",
+		"name": "名前",
+		"category": "カテゴリ",
+		"description": "説明",
+		"registeredAt": "登録日",
+		"attributes": "属性",
+		"count": "{{count}} 件の推しが登録されています"
+	}
+}
